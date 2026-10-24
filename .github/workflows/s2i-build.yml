@@ -1,0 +1,20 @@
+- name: Source to Image Build
+  # You may pin to the exact commit or the version.
+  # uses: redhat-actions/s2i-build@1436d4468ca4dde2a6c85faaae0cb3864f5ffe70
+  uses: redhat-actions/s2i-build@v2
+  with:
+    # The path of the s2i builder image.
+    builder_image: 
+    # The Name of the image to build
+    image: 
+    # The tags of the image to build. For multiple tags, seperate by a space. For example, "latest v1".
+    tags: # optional, default is latest
+    # The location of the path to run s2i from
+    path_context: # optional, default is .
+    # Log level when running the S2I
+    log_level: # optional, default is 1
+    # List of environment variable key-value pairs to pass to the s2i builder context
+    env_vars: # optional
+    # Include all files in tar during build which includes .git directory
+    include_git: # optional, default is false
+wie ich die datei und in welchen ordnwer kommt sie?

@@ -1,0 +1,21 @@
+- name: Armory Continuous Deployment-as-a-Service
+  # You may pin to the exact commit or the version.
+  # uses: armory/cli-deploy-action@36fc96b3e295e960d22f96513ef781bb9865a87c
+  uses: armory/cli-deploy-action@v1.0.0
+  with:
+    # Path to the configuration YAML file used to configure your deployment
+    path-to-file: 
+    # extra args to the deployment start command
+    applicationName: # optional
+    # extra context params to the deployment start command
+    addContext: # optional
+    # ClientId for Armory Cloud
+    clientId: 
+    # ClientSecret for Armory Cloud
+    clientSecret: 
+    # Intended audience of requests that will use your Armory Cloud authentication token. Is deployHostUrl by default
+    audience: # optional, default is https://api.cloud.armory.io
+    # Armory Cloud authentication provider url
+    tokenIssuerUrl: # optional, default is https://auth.cloud.armory.io/oauth
+    # Location of the Armory Cloud API which will handle your deployment
+    deployHostUrl: # optional, default is api.cloud.armory.io

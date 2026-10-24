@@ -1,0 +1,33 @@
+{
+  "description": "Web Developer",
+  "license": "GPL-3.0",
+  "name": "web-developer",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrispederick/web-developer"
+  },
+  "devDependencies": {
+    "dateformat": "4.5.1",
+    "del": "5.1.0",
+    "fancy-log": "1.3.3",
+    "gulp": "3.9.1",
+    "gulp-concat": "*",
+    "gulp-csslint": "*",
+    "gulp-eslint": "*",
+    "gulp-filter-java-properties": "*",
+    "gulp-footer": "*",
+    "gulp-imagemin": "4.1.0",
+    "gulp-load-plugins": "*",
+    "gulp-plumber": "*",
+    "gulp-rename": "*",
+    "gulp-replace": "*",
+    "gulp-zip": "4.2.0",
+    "lazypipe": "*",
+    "merge-stream": "*",
+    "require-dir": "*",
+    "run-sequence": "*",
+    "web-ext": "*"
+  },
+  "dependencies": {}
+}
